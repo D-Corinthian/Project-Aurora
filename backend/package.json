@@ -1,0 +1,21 @@
+{
+    "name": "safebank-response-manipulation-lab",
+    "version": "1.0.0",
+    "description": "Response manipulation lab – Login bypass via 401 → 200 tampering",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+      "start": "node server.js",
+      "dev": "node server.js"
+    },
+    "keywords": ["ctf", "security", "git_recon", "auth-bypass"],
+    "author": "Your Evil Lab Corp",
+    "license": "UNLICENSED",
+    "dependencies": {
+      "express": "^4.19.2",
+      "sqlite3": "^5.1.7",
+      "cors": "^2.8.5",
+      "morgan": "^1.10.0",
+      "dotenv": "^16.4.5"
+    }
+  }
